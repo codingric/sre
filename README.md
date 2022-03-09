@@ -79,9 +79,9 @@ language of choice._
 _One of the specifics of working in hospitality is a certain "seasonality" to our app.
 Peaks in traffic correspond to Breakfast, Lunch, Dinner, increasing on
 Thursday/Friday nights and pretty much all day Saturday. At the same time, we're
-working in many timezones so they don't all correspond.
+working in many timezones so they don't all correspond._
 
-The application needs to scale to handle the load as each peak/trough window for a
+_The application needs to scale to handle the load as each peak/trough window for a
 timezone is observed. How would you design for this? Where do you think the main
 bottlenecks could be? What actions would you take to understand the problem and
 to finally deliver an infrastructure that would support it?_

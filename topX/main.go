@@ -27,7 +27,7 @@ func main() {
 
 	if len(os.Args) != 3 {
 		// Incorrect args
-		fmt.Printf("Usage: %s TOP FILENAME\n\n  TOP\t Integer to top values to display\n  FILENAME\tFile to read numbers from\n", path.Base(os.Args[0]))
+		fmt.Printf("Usage: %s TOP FILENAME\n\n  TOP\t\tHow many top totals to display\n  FILENAME\tFile to read numbers from\n", path.Base(os.Args[0]))
 		os.Exit(1)
 	}
 	top := os.Args[1]
